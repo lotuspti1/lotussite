@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lotussite/static/css/main.6ddd2b32.css",
+    "main.js": "/lotussite/static/js/main.13f4dd5e.js",
+    "index.html": "/lotussite/index.html",
+    "main.6ddd2b32.css.map": "/lotussite/static/css/main.6ddd2b32.css.map",
+    "main.13f4dd5e.js.map": "/lotussite/static/js/main.13f4dd5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ddd2b32.css",
+    "static/js/main.13f4dd5e.js"
+  ]
+}
