@@ -1,0 +1,180 @@
+nav{
+  height: 110px;
+}
+.logoimg{
+  margin-left: 20px ;
+  height: 110px;
+  filter: brightness(0) invert(1);
+}
+.logoimg{
+  height: 90px;
+}
+.topNav{
+  height: 33px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-family:'Times New Roman', Times, serif;
+  background-color: rgb(18, 46, 245, 0.8);
+}
+.fa-phone:hover, .logoHref:hover{
+  background:none;
+}
+nav ul{
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 100px;
+  margin: 5px 15px;
+}
+nav ul li a{
+  color: white;
+  font-size: 22px;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+a:hover{
+  color:white;
+  text-decoration: none;
+  background-color:gold;
+  transition: .5s;
+}
+a.active{
+  background-color: rgb(18, 46, 245, 0.8);
+}
+.sIcon:hover{
+  background-color:rgb(18, 46, 245, 0.8);
+  color:white;
+}
+.checkbtn{
+  font-size: 30px;
+  float: right;
+  color: white;
+  line-height: 80px;
+  margin-right: 40px;
+  margin-top: 11px;
+  cursor: pointer;
+  display: none;
+}
+#crosss{
+  display: none;
+  cursor: pointer;
+  color:white;
+  background: none;
+  border: none;
+  font-size: 40px;
+}
+#crosss,#check{
+  display: none;
+}
+#crosss{
+  position: absolute;
+  right: 20px;
+}
+#wordLotus{
+  letter-spacing: 11px;
+  font-size: 30px;
+  padding-left: 19px;
+}
+#remWord{
+  padding-left: 5px;
+  font-size: 14px;
+}
+#conPointDetails{
+  margin-top: -50px;
+}
+.footer{
+  width: 100%;
+  margin-top:10px;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+  background-color: rgb(0,0,0,0.8);
+  font-size: 20px;
+  color:white;
+  font-family: 'Times New Roman', Times, serif;
+  }
+@media only screen and (max-width: 615px) {
+  .longAdd {      
+    display: none;
+  }
+  .sIcon{
+    padding:0px 7px 0px 7px;
+}
+.compName{
+  display: none;
+}
+nav ul li{
+  line-height: 50px;
+  margin: 5px 15px;
+}
+@media only screen and (max-width: 575px) {
+  #conPointDetails{
+    margin-top: 0px;
+  }
+}
+}
+
+@media (max-width: 1020px){
+  nav ul{
+    margin-right: 10px;
+  }
+  nav ul li a{
+    font-size: 18px;
+  }
+}
+@media (min-width: 900px){
+  #crosss{
+    display: none !important;
+  }}
+@media (max-width: 900px){
+ .checkbtn{
+   display: block;
+ }
+ ul{
+   z-index: 1;
+   position: fixed;
+   width: 100%;
+   height: 100vh;
+   background:red;
+   top:12;
+   left:-130%;
+   text-align: center;
+   transition: all .5s;
+ }
+nav ul li a{
+  font-size: 25px;
+}
+ nav ul li{
+   padding-top: 40px;
+   margin: 15px 15px;
+   display: block;
+   line-height: 20px;
+   
+ }
+ #check:checked ~ ul{
+   left:0;
+ }
+ @media only screen and (max-width: 320px) {
+  ul{
+    text-align: left;
+  }}
+}
+html, body{
+  font-size: 20px;
+  font-family:'Atma';
+  min-width: 300px;
+  height: 100%;
+  margin:0px;
+  padding: 0px;
+}
+
+.sIcon{
+  border-radius: 50%;
+  background-color:white;
+  background-size: 50px 50px;
+  color:blue;
+  margin-right: 13px;
+  font-size:20px;
+  padding:4px 7px;
+}

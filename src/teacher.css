@@ -1,0 +1,93 @@
+.circle-with-text {
+    padding: 10px 25px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: green;
+    font-size: 40px;
+    color: white;
+  }
+  .courseName{
+      padding-left: 10px;
+      font-size: 30px;
+      font-weight: bold;
+  }
+  .cOrderList{
+      margin: -8px 0px 0px 60px;
+  }
+.teacherRow{
+    padding-top: 30px;
+    padding-left: 40px;
+    word-wrap:break-word;
+}
+.teacherDetails{
+    text-align: center;
+}
+.timage{
+    width:100%;
+    height:300px;
+    border-radius:50%;
+}
+#tname{
+    display: block;
+    padding-top: 20px;
+    font-size: 25px;
+}
+#tdetails{
+    display: block;
+    padding: 18px;
+}
+#aboutUsHead{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+}
+#aboutUsBody{
+    display: block;
+    padding-top: 20px;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+@media only screen and (max-width: 991px) {
+    .courseName{
+        padding-left: 6px;
+        font-size: 22px;
+    }
+    .circle-with-text{
+        padding: 5px 12px;
+        font-size: 30px;
+    }
+    .cOrderList{
+        margin: -8px 0px 0px 23px;
+    }
+}
+@media only screen and (max-width: 955px) {
+    .teacherRow{
+        padding-left: 20px;
+    }
+    
+    @media only screen and (max-width: 745px) {
+        .teacherRow{
+            padding-left: 10px;
+        }
+    }
+    @media only screen and (max-width: 575px) {
+        .timage{
+            display: block;
+            width:80%;
+            margin-left: auto;
+            margin-right: auto;
+            height:300px;
+            border-radius:50%;
+        }
+        #tdetails{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .imgAbt{
+            order:1;
+        }
+        .contentAbt{
+            order:2;
+        }
+    }
+}
