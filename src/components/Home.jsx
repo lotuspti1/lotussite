@@ -6,13 +6,13 @@ function Home() {
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                        <img style={{width: "100%",height: "100%"}} src="https://english.nepalpress.com/wp-content/uploads/2021/01/school.jpg" alt='FirstSlide'></img>
+                        <img style={{width: "100%",height: "100%"}} src="https://english.nepalpress.com/wp-content/uploads/2021/01/school.jpg" alt='First Slide'></img>
                         </div>
                         <div className="carousel-item">
-                            <img style={{width: "100%",height: "100%"}} src="https://english.nepalpress.com/wp-content/uploads/2021/01/school.jpg" alt='SecondSlide'></img>
+                            <img style={{width: "100%",height: "100%"}} src="https://english.nepalpress.com/wp-content/uploads/2021/01/school.jpg" alt='Second Slide'></img>
                         </div>
                         <div className="carousel-item">
-                        <img style={{width: "100%",height: "100%"}} src="https://english.nepalpress.com/wp-content/uploads/2021/01/school.jpg" alt='ThirdSlide'></img>
+                        <img style={{width: "100%",height: "100%"}} src="https://english.nepalpress.com/wp-content/uploads/2021/01/school.jpg" alt='Third Slide'></img>
                         </div>
                     </div>
                     <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
