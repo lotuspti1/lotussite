@@ -28,7 +28,7 @@ function About(){
                     </text>
                 </div>
                 <div className='col-sm-6 imgAbt'>
-                    <img style={{width:'100%',height:'95%'}} src="https://english.nepalpress.com/wp-content/uploads/2021/01/school.jpg" alt="About"></img>
+                    <img style={{width:'100%',height:'95%'}} src="https://english.nepalpress.com/wp-content/uploads/2021/01/school.jpg" alt="About Image"></img>
                 </div>
             </div>
         </div>
