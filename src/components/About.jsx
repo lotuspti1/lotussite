@@ -28,7 +28,7 @@ function About(){
                     </text>
                 </div>
                 <div className='col-sm-6 imgAbt'>
-                    <img style={{width:'100%',height:'95%'}} src="https://scontent.fktm1-1.fna.fbcdn.net/v/t1.15752-9/270760900_452506599744764_6588765016437490370_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=ae9488&_nc_ohc=k1_NvpHman4AX-dNDHT&_nc_ht=scontent.fktm1-1.fna&oh=03_AVLfcbEbhOe6qtFfUKA_ZZdNX17e7M-on6JrbEcKK0Rz8g&oe=61FA408F" alt="About"></img>
+                    <img style={{width:'100%',height:'95%'}} src="https://english.nepalpress.com/wp-content/uploads/2021/01/school.jpg" alt="About"></img>
                 </div>
             </div>
         </div>
