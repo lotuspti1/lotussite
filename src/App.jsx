@@ -6,6 +6,7 @@ import Teacher from './components/Teacher';
 import Course from './components/Course';
 import Footer from './components/Footer';
 import About from './components/About';
+import NotFound from './components/NotFound';
 import {Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
                 <Route path='/staff' element={<Teacher/>} exact/>
                 <Route path='/about' element={<About/>} exact/>
                 <Route path='/course' element={<Course/>} exact/>
+                <Route element={<NotFound/>} />
             </Routes>
             <Footer />
         </>
