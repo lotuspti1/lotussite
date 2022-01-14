@@ -5,7 +5,7 @@ return(
         <div className='container-fluid'>
             <div className='row teacherRow'>
                 <div className='col-sm-4'>
-                    <img className='img-responsive timage' src={require('../images/bishalimg.jpg')} alt='First Slide'></img>
+                    <img className='img-responsive timage' src={require('../images/bishalimg.jpg')} alt='Teacher Image'></img>
                 </div>
                 <div className='col-sm-8 teacherDetails'>
                     <text id='tname'>Mr Bishal Tiwari</text>
@@ -22,7 +22,7 @@ return(
             </div>
             <div className='row teacherRow'>
                 <div className='col-sm-4'>
-                    <img className='img-responsive timage' src={require('../images/sudipsir.jpg')} alt='First Slide'></img>
+                    <img className='img-responsive timage' src={require('../images/sudipsir.jpg')} alt='Teacher Image'></img>
                 </div>
                 <div className='col-sm-8 teacherDetails'>
                     <text id='tname'>Mr Sudeep Ghimire</text>
