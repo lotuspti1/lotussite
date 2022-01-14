@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 function closeNav(){
-    if(window.innerWidth<900){
+    if(window.innerWidth<925){
     openNav();
     document.getElementById('check').checked=false;
     }
@@ -29,7 +29,7 @@ function Base() {
             </div>
             <div className='container-fluid bg-primary'>
                 <nav>
-                    <div className='row justify-content-between'>
+                    <div className='row justify-content-between' style={{fontFamily:'cursive'}}>
                         <div className='row'>
                             <a className='logoHref' href="/">
                                 <img className='logoimg img-responsive' src={require('../images/logo.png')} alt='logo'></img>
@@ -49,7 +49,7 @@ function Base() {
                                 <button onClick={closeNav} id='crosss'>&times;</button>
                                 <li><NavLink onClick={closeNav} to="/">Home</NavLink></li>
                                 <li><NavLink onClick={closeNav} to="/course">Courses</NavLink></li>
-                                <li><NavLink onClick={closeNav} to="/teacher">Teachers</NavLink></li>
+                                <li><NavLink onClick={closeNav} to="/staff">Staffs</NavLink></li>
                                 <li><NavLink onClick={closeNav} to="/contact">Contact</NavLink></li>
                                 <li><NavLink onClick={closeNav} to="/about">About Us</NavLink></li>
                             </ul>

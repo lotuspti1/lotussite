@@ -6,10 +6,11 @@
     font-size: 40px;
     color: white;
   }
+ 
   .courseName{
       padding-left: 10px;
       font-size: 30px;
-      font-weight: bold;
+      font-family: cursive;
   }
   .cOrderList{
       margin: -8px 0px 0px 60px;
@@ -30,16 +31,17 @@
 #tname{
     display: block;
     padding-top: 20px;
-    font-size: 25px;
+    font-size: 28px;
 }
 #tdetails{
     display: block;
-    padding: 18px;
+    padding: 14px;
 }
 #aboutUsHead{
     display: block;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
+    font-family: cursive;
 }
 #aboutUsBody{
     display: block;
@@ -64,7 +66,11 @@
     .teacherRow{
         padding-left: 20px;
     }
-    
+    @media only screen and (max-width: 767px) {
+        .courseName{
+            font-size: 21px;
+        }
+    }
     @media only screen and (max-width: 745px) {
         .teacherRow{
             padding-left: 10px;

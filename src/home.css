@@ -24,13 +24,14 @@
     display: block;
     padding-top: 10px;
     font-size: 25px;
+    font-family: cursive;
 }
 #shortInfoBody{
     display: block;
     padding-top: 5px;
     font-size: 18px;
 }
-.fa-graduation-cap{
+.fa-book,.fa-user-tie,.fa-users,.fa-graduation-cap{
     font-size: 50px;
 }
 #mapa{

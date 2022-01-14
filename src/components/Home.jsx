@@ -25,18 +25,20 @@ function Home() {
                 <div className='container-fluid' id='conPointDetails'>
                         <div className='row pointDetails text-white'>
                         <div className='col-sm-4 bg-danger shortInfo'>
-                            <i class="fa fa-graduation-cap"></i>
+                        <i class="fa fa-book"></i>
                             <text id='shortInfoHead'>Courses</text>
-                            <text id='shortInfoBody'>sdfsfsfsfsfslskdjflskdjflskfjsldfjslkfsdsdfsdfsdfsfsdfsfssdfsdfsffsdf</text>
+                            <text id='shortInfoBody'>We provide a wide variety of services so that our learners and trainee could persue
+                            their professional career goals.</text>
                         </div>
                         <div className='col-sm-4 bg-primary shortInfo'>
+                            <i class="fa fa-users"></i>
+                            <text id='shortInfoHead'>Community</text>
+                            <text id='shortInfoBody'>We are a team of professionals who are specialized in their respective area of expenses.</text>
+                        </div> <div className='col-sm-4 bg-success shortInfo'>
                             <i class="fa fa-graduation-cap"></i>
-                            <text id='shortInfoHead'>Courses</text>
-                            <text id='shortInfoBody'>sdfsfsfsfsfsfsdsdfsdfsdfsfsdfsfssdfsdfsffsdf</text>
-                        </div> <div className='col-sm-4 bg-warning shortInfo'>
-                            <i class="fa fa-graduation-cap"></i>
-                            <text id='shortInfoHead'>Courses</text>
-                            <text id='shortInfoBody'>sdfsfsfsfsfsfsdsdfsdfsdfsfsdfsfssdfsdfsffsdf</text>
+                            <text id='shortInfoHead'>Career</text>
+                            <text id='shortInfoBody'>Lotus is a platform for any of the trainees who once enter into our institute will
+                            leave with their professional career outcomes.</text>
                         </div>
                         </div>
                         </div>
